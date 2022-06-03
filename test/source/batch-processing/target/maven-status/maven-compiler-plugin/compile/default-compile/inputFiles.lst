@@ -1,0 +1,11 @@
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\listener\JobListener.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\model\Contact.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\controller\BatchController.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\controller\JobData.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ContactsFormatter.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\listener\PersistListener.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\RecordsReader.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ContactsPersister.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ReportBatchelet.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\util\Resources.java
+C:\test\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ChunkCheckpoint.java

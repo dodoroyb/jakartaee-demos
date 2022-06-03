@@ -1,0 +1,16 @@
+#Fri Jun 03 10:13:50 JST 2022
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\RecordsReader.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\ContactsPersister.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\util\\Resources.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\controller\\JobData.java=1624431206000
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E
+C\:\\test\\source\\batch-processing\\src\\main\\resources\\META-INF\\batch-jobs\\import-file.xml=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\model\\Contact.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\ChunkCheckpoint.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\listener\\JobListener.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\listener\\PersistListener.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\controller\\BatchController.java=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\ReportBatchelet.java=1624431206000
+configuration*?=066D8158C464247A04916AE9287F2950C7D63218
+C\:\\test\\source\\batch-processing\\src\\main\\resources\\META-INF\\persistence.xml=1624431206000
+C\:\\test\\source\\batch-processing\\src\\main\\java\\org\\jboss\\as\\quickstarts\\batch\\job\\ContactsFormatter.java=1654155258511
