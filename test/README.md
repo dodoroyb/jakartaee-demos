@@ -1,5 +1,12 @@
 ## 公式サイト
 
+無料版のwildflyの実装は結論的に使えない。mavenパスが通らない等。[パス](https://repository.jboss.org/nexus/content/groups/public/org/wildfly/quickstarts/wildfly-quickstart-parent/2/wildfly-quickstart-parent-2.pom)
+
+[wildfly公式](https://www.wildfly.org/downloads/)
+[wildfly公式-github-26.1.1.Final](https://github.com/wildfly/quickstart/tree/26.1.1.Final)
+
+
+
 jboss eap 公式サイトよりQuick Startsサンプルソース、Jboss eap, Maven Repositoryをダウンロードし、下記作業フォルダを作成する。バージョンは7.4.0。[JBoss EAP All Downloads](https://developers.redhat.com/products/eap/download?extIdCarryOver=true&sc_cid=701f2000001OH7JAAW)
 
 
