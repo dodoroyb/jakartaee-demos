@@ -79,7 +79,7 @@ docker run -it -d --name demo-app -p 8080:8080 -p 9990:9990 my-jboss:v1.0
 docker ps
 
 # 外部マシンでグロバルIP叩をいてアプリにアクセス
-start chrome.exe http://x.x.x.x:8080/batch-processing/batch.jsf
+start chrome.exe http://x.x.x.x:8080/batch-processing
 ```
 
 
