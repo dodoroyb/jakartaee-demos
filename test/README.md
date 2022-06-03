@@ -93,16 +93,16 @@ FROM centos:centos7.9.2009
 # 作成者、メンテナ
 LABEL maintainer=dodoroyb
 
-# デプロイするwarファイルをコンテナーをの「/root」直下にコピーする
+# デプロイするwarファイルをコンテナの「/root」直下にコピーする
 COPY ./target/*.war /root/
 
-# jboss eapをコンテナーをの「/root」直下にコピーする
+# jboss eapをコンテナーの「/root」直下にコピーする
 COPY ./target/*.zip /root/
 
 # コンテナーの中でjava-1.8をインストールする
 RUN yum install -y java-1.8.0-openjdk
 
-# コンテナーの中で回答ソフトをインストールする
+# コンテナーの中で解凍ソフトをインストールする
 RUN yum install -y unzip
 
 # 作業ディレクトリを指定する、cdコマンドに該当するイメージ
