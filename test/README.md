@@ -38,11 +38,11 @@ test
 
 - 「test > 01_jboss-start.bat」を実行し、jbossを起動して置く。
 
-- 「source > source > batch-processing」eclipse等でコードを書く。
+- 「test > source > batch-processing」eclipse等でコードを書く。
 
 -  コーディングを完了し、「source > 02_deploy-war.bat」実行。 ※jbossは常に起動状態を維持。
 
-- 「source > 127.0.0.1-8080.bat」実行し、アプリの画面を起動。
+- 「test > 127.0.0.1-8080.bat」実行し、アプリの画面を起動。
 
   
 
