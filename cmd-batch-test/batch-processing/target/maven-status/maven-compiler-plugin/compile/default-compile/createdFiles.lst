@@ -1,0 +1,14 @@
+org\jboss\as\quickstarts\batch\controller\StandAloneBatchMain.class
+org\jboss\as\quickstarts\batch\util\Resources.class
+org\jboss\as\quickstarts\batch\model\Contact.class
+org\jboss\as\quickstarts\batch\controller\BatchController$1.class
+org\jboss\as\quickstarts\batch\model\Contact_.class
+org\jboss\as\quickstarts\batch\job\ContactsPersister.class
+org\jboss\as\quickstarts\batch\job\ContactsFormatter.class
+org\jboss\as\quickstarts\batch\controller\JobData.class
+org\jboss\as\quickstarts\batch\job\listener\JobListener.class
+org\jboss\as\quickstarts\batch\controller\BatchController.class
+org\jboss\as\quickstarts\batch\job\RecordsReader.class
+org\jboss\as\quickstarts\batch\job\ReportBatchelet.class
+org\jboss\as\quickstarts\batch\job\ChunkCheckpoint.class
+org\jboss\as\quickstarts\batch\job\listener\PersistListener.class

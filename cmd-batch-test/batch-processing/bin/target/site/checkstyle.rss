@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Quickstart: batch-processing - Checkstyle report</title>
+    <link>https://developers.redhat.com/quickstarts/eap/batch-processing/</link>
+    <description>Quickstart: batch-processing - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2022 JBoss by Red Hat</copyright>
+    <item>
+      <title>File: 13,
+             Errors: 0,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.model.Contact.java">org/jboss/as/quickstarts/batch/model/Contact.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#META-INF.persistence.xml">META-INF/persistence.xml</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.ContactsPersister.java">org/jboss/as/quickstarts/batch/job/ContactsPersister.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.ContactsFormatter.java">org/jboss/as/quickstarts/batch/job/ContactsFormatter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.ChunkCheckpoint.java">org/jboss/as/quickstarts/batch/job/ChunkCheckpoint.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.ReportBatchelet.java">org/jboss/as/quickstarts/batch/job/ReportBatchelet.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.controller.BatchController.java">org/jboss/as/quickstarts/batch/controller/BatchController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#META-INF.batch-jobs.import-file.xml">META-INF/batch-jobs/import-file.xml</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.RecordsReader.java">org/jboss/as/quickstarts/batch/job/RecordsReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.listener.PersistListener.java">org/jboss/as/quickstarts/batch/job/listener/PersistListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.job.listener.JobListener.java">org/jboss/as/quickstarts/batch/job/listener/JobListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.controller.JobData.java">org/jboss/as/quickstarts/batch/controller/JobData.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://developers.redhat.com/quickstarts/eap/batch-processing//checkstyle.html#org.jboss.as.quickstarts.batch.util.Resources.java">org/jboss/as/quickstarts/batch/util/Resources.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

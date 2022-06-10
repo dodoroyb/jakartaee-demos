@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\controller\BatchController.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\controller\JobData.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ChunkCheckpoint.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ContactsFormatter.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ContactsPersister.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\listener\JobListener.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\listener\PersistListener.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\RecordsReader.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ReportBatchelet.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\model\Contact.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\util\Resources.java">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\resources\META-INF\batch-jobs\import-file.xml">
+</file>
+<file name="C:\IDEA-work\source\batch-processing\src\main\resources\META-INF\persistence.xml">
+</file>
+</checkstyle>
