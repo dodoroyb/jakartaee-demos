@@ -7,7 +7,6 @@
 	<artifactId>jberet-standalone-example</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencyManagement />
 	<dependencies>
 
 		<dependency>
@@ -34,12 +33,6 @@
 			<scope>runtime</scope>
 		</dependency>
 		
-		
-
-
-
-
-
 		<dependency>
 			<groupId>org.jberet</groupId>
 			<artifactId>jberet-support</artifactId>
@@ -52,10 +45,6 @@
 			<version>${jberet.version}</version>
 		</dependency>
 
-
-
-		
-		
 		
 		<dependency>
 			<groupId>org.jboss.marshalling</groupId>
@@ -87,73 +76,45 @@
 		<main.class>com.ditemis.jberet.Main</main.class>
 	</properties>
 
-	<!-- Build Settings -->
-	<build>
+		<!-- Build Settings -->
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<configuration>
+						<archive>
+							<manifest>
+								<mainClass>${main.class}</mainClass>
+								<addClasspath>true</addClasspath>
+								<addExtensions>false</addExtensions>
+								<classpathPrefix></classpathPrefix>
+							</manifest>
+						</archive>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<configuration>
+						<descriptors>
+							<descriptor>src/main/assembly/assembly.xml</descriptor>
+						</descriptors>
 
+						<finalName>aaa/bbb</finalName>
+					</configuration>
+					<executions>
+						<execution>
+							<id>make-sample-batch-zip</id>
+							<phase>package</phase>
+							<goals>
+								<goal>single</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</build>
 
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>${main.class}</mainClass>
-							<addClasspath>true</addClasspath>
-							<addExtensions>false</addExtensions>
-							<classpathPrefix></classpathPrefix>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
-
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-					<descriptors>
-						<descriptor>src/main/assembly/assembly.xml</descriptor>
-					</descriptors>
-
-					<finalName>aaa/bbb</finalName>
-				</configuration>
-				<executions>
-					<execution>
-						<id>make-sample-batch-zip</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
-		</plugins>
-	</build>
-
-	<!-- More Project Information -->
-	<name>${project.artifactId}</name>
-	<description>An example how to setup jberet as a standalone java application</description>
-	<url>https://github.com/kaape/${project.artifactId}</url>
-	<inceptionYear />
-	<licenses />
-	<organization />
-	<developers />
-	<contributors />
-
-	<!-- Environment Settings -->
-	<issueManagement />
-	<ciManagement />
-	<mailingLists />
-	<scm>
-		<developerConnection>scm:git:git@github.com:kaape/jberet-standalone-example.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	<prerequisites />
-	<repositories />
-	<pluginRepositories />
-	<distributionManagement />
-	<profiles />
 
 </project>

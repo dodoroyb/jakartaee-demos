@@ -1,0 +1,32 @@
+version: "2.6"
+services:
+  meta-db:
+    image: mysql:5.7
+    container_name: meta-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=meta-db
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=user
+      - MYSQL_RANDOM_ROOT_PASSWORD=yesx
+    ports:
+      - "13306:3306"
+  main-db:
+    image: mysql:5.7
+    container_name: main-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=main-db
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=user
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+
+    ports:
+      - "3306:3306"
+  javase8:
+    image: openjdk:8
+    container_name: javase8
+    environment:
+      DATASOURCE: jdbc:mysql://db:3306/main-db
+    ports:
+      - "80:8080"
